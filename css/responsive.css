@@ -1,0 +1,14 @@
+@media (max-width: 800px) {
+    .navigation {
+        display: none;
+    }
+    .burger {
+        display: block;
+    }
+}
+
+@media (max-width: 572px) {
+    h1 {
+        text-align: center;
+    }
+}
