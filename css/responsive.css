@@ -1,3 +1,18 @@
+@media (max-width: 1225px) {
+    .section {
+        flex-direction: column;
+    }
+}
+    .left-block,
+    .right-block {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .left-block {
+        margin-bottom: 40px;
+        text-align: center;
+    }
+
 @media (max-width: 800px) {
     .navigation {
         display: none;
