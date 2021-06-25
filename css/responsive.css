@@ -1,6 +1,9 @@
 @media (max-width: 1225px) {
     .section {
-        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
     }
 }
     .left-block,
