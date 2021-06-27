@@ -60,11 +60,8 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    position: relative;
 }
-.banner-text {
-    position: absolute;
-}
+
 h1,
 h2 {
     color: white;
@@ -87,19 +84,22 @@ h2 {
 
 /* section */ 
 .section {
+    max-width: 1170px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
     margin-top: 76px;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -ms-flex-pack: distribute;
-        justify-content: space-around;
+        justify-content: space-between;
 }
 
 
 .left-block {
     max-width: 240px;
     width: 100%;
-    margin-right: 60px;
 }
 h3 {
     font-family: 'Raleway';
@@ -110,16 +110,11 @@ h3 {
 }
 
 h6, 
-.left-block p {
+.left-block p,
+.article p {
     font-family: 'Raleway';
     font-size: 16px;
     color: #8D8D8D;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
 }
 h6 {
     text-transform: uppercase;
@@ -139,13 +134,9 @@ h6 {
     -ms-flex-wrap: wrap;
         flex-wrap: wrap;
 }
-h4,
-.article p {
-    color: #8D8D8D;
+h4 {
     font-family: 'Raleway';
     font-size: 16px;
-}
-h4 {
     margin-top: 22.4px;
     color: #1A1A1B;
 }
@@ -155,5 +146,4 @@ h4 {
     max-height: 94px;
     margin-bottom: 21.6px;
     margin-top: 9px;
-    color: #8D8D8D;
 }
